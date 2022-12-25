@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Заметки</title>
+	<link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		>
+	<link rel="stylesheet" href="css/zametki.css">
+
+	<script defer src="js/zametki.js"></script>
+	
+</head>
+
+<body>
+	 
+  <div class="container">
+    <div class="containerone">
+      <div class="box-1"> 
+        <p>ОАО «МАЯК»</p>
+      </div>
+      <div class="box-2"> 
+        <p>info@mayak-penza.ru</p> 
+      </div>
+      <div class="box-3"> 
+        <p>8 (8412) 52-23-53</p><p>8 (8412) 55-28-19</p> 
+      </div>
+    </div>
+
+	<div class="container my-3">
+		<h1>Оставте свою заметку</h1>
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">
+					Добавте заметку
+				
+				</h5>
+				<div class="form-group">
+					<textarea class="form-control"
+						id="addTxt" rows="3">
+					</textarea>
+				</div>
+				<button class="btn btn-primary"
+					id="addBtn" style=
+					"background-color:green">
+					Добавить
+				</button>
+			</div>
+		</div>
+		<hr>
+		<h1>Ваши заметки</h1>
+		<hr>
+		
+		<div id="notes" class=
+			"row container-fluid">
+		</div>
+	</div>
+</div>
+
+	<script src="gfg.js"></script>
+
+</body>
+
+</html>

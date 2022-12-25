@@ -1,0 +1,73 @@
+html {
+height : 100%;
+}
+
+body {
+height : 100%;
+margin : 0;
+font-family : Arial, Helvetica, sans-serif;
+display : grid;
+justify-items : center;
+align-items : center;
+}
+
+.container {
+width : 100%;
+max-width : 2000px;
+margin : 0 auto;
+}
+
+header {
+width : 100%;
+}
+
+.containerone {
+display : grid;
+grid-template-columns : repeat(3,390px);
+grid-template-rows : repeat(1,90px);
+padding-left : 30px;
+padding-top : 20px;
+background : #44944A;
+color : white;
+}
+
+.containertwo {
+display : grid;
+grid-template-columns : repeat(4,300px);
+grid-template-rows : repeat(1,300px);
+padding-left : 30px;
+padding-top : 20px;
+text-align: center;
+}
+
+h1{
+  font-size: 20px;
+  color: #44944A;
+}
+
+h2{
+  font-size: 18px;
+}
+
+a:link {
+  color : black;
+  font-weight : bold;
+  text-decoration : none;
+  }
+
+.NoDecoration {
+  color : black;
+} 
+
+.box-1-1:hover{ /* анимация при наведении*/
+  border: 2px solid #ECE9E9;
+}
+.box-2-2:hover{ /* анимация при наведении*/
+  border: 2px solid #ECE9E9;
+}
+.box-3-3:hover{ /* анимация при наведении*/
+  border: 2px solid #ECE9E9;
+}
+.box-4-4:hover{ /* анимация при наведении*/
+  border: 2px solid #ECE9E9;
+}
